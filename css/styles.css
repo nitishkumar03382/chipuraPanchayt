@@ -1,0 +1,23 @@
+.main{
+    background: url("background.png");
+}
+@keyframes jumboBtn{
+    from{ background-color: blue;}
+    to  { background-color: green;}
+}
+.jumbotron{
+    background-color: #67b6a6;
+    color: floralwhite;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    animation-name: jumboBtn;
+    animation-duration: 5s;
+    background-color: green;
+}
+
+.lead{
+    align-items: center;
+    text-align: right;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "mytutor",
+  "version": "1.0.0",
+  "description": "This is a startup project to find teachers for home tution near you ",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitishkumar03382/myTutor.git"
+  },
+  "author": "Nitish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitishkumar03382/myTutor/issues"
+  },
+  "homepage": "https://github.com/nitishkumar03382/myTutor#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
