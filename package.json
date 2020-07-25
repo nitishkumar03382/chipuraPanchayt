@@ -1,7 +1,7 @@
 {
-  "name": "mytutor",
+  "name": "chipurapanchayat",
   "version": "1.0.0",
-  "description": "This is a startup project to find teachers for home tution near you ",
+  "description": "chipura panchayat website ",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",

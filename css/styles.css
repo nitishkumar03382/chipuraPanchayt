@@ -5,19 +5,233 @@
     from{ background-color: blue;}
     to  { background-color: green;}
 }
+.navbar{
+    opacity: 100%;
+    
+}
+.link-text{
+    font-size: x-large;
+}
+.nav-link:hover{
+    border-bottom: 2px solid gray;
+}
+.nav-link + .active{
+    color: floralwhite;
+}
 .jumbotron{
-    background-color: #67b6a6;
+    /* background-color: #5aa899; */
+    
+    background-color: #1b1d8d;
+    background-image: url(D:\chipurapanchayat.com/jumbo.png);
     color: floralwhite;
     padding: 10px;
     margin-top: 10px;
 }
-.btn:hover{
-    animation-name: jumboBtn;
-    animation-duration: 5s;
-    background-color: green;
-}
+.carousel {
+    background: #512DA8;
+     }
+    .carousel .carousel-item {
+      height: 300px; }
+      .carousel .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px; }
+  
+  #carouselButton {
+    right: 0px;
+    position: absolute;
+    color: black;
+    bottom: 0px;
+    z-index: 1; }
 
+
+.img-fluid{
+    width: 100%;
+    height: 400px;
+}
+.card{
+    width: 302px;
+    height: fit-content;
+}
+.card-img-top{
+    height: 300px;
+    width: 300px;
+    
+}
+.card-body{
+    text-align: center;
+    text-shadow: crimson;
+    
+    background-color: #53e0bc;
+}
+.mukhiya{
+    margin-left: -15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.satish-row{
+   
+   padding: 5px;
+}
+.mukhiya-text{
+    font-size: larger;
+    
+}
 .lead{
     align-items: center;
     text-align: right;
+}
+.ward-btn-blue{
+    width: 100%;
+    background-color: blueviolet;
+    margin: 5px;
+    font-size: larger;
+    border-style: none;
+    border-radius: 0;
+    border-color: #5aa899;
+}
+.ward-btn-blue:hover{
+    background-color: rgb(112, 36, 184);
+    border-color: rgb(112, 36, 184);
+    margin: 5px;
+    border-radius: 0;
+    font-size: larger;
+    transform: scale(1.05);
+
+}
+.ward-btn-green{
+    width: 100%;
+    background-color: #5aa899;
+    margin: 5px;
+    font-size: larger;
+    border-style: none;
+    border-radius: 0;
+    border-color: #5aa899;
+}
+.ward-btn-green:hover{
+    background-color:#458d7f;
+    border-color: #458d7f;
+    margin: 5px;
+    border-radius: 0;
+    font-size: larger;
+    transform: scale(1.05);
+
+}
+
+.ward-detail{
+    background-image: linear-gradient(to right bottom, #1f253a, #1e468f  );
+    height: 150px;
+    color: floralwhite
+}
+#notice-board{
+    height: ;
+}
+.notice-content{
+    align-items: center;
+   background-color: #2d5899;
+   color: floralwhite;
+   text-align: center;
+   margin: 5px;
+   
+}
+.notice-content:hover{
+    transform: scale(1.05);
+}
+.notice a{
+    color: rgb(221, 186, 115);
+}
+#sarpanch{
+    background-color: #2a665a;
+    color: floralwhite;
+    margin-bottom: 10px;
+    box-shadow: gray;
+}
+#sarpanch:hover{
+    transform: scale(1.05);
+}
+#upsarpanch{
+    background-color: #4e9183;
+    color: floralwhite;
+    margin-bottom: 10px;
+    box-shadow: gray;
+}
+#upsarpanch:hover{
+    transform: scale(1.05);
+}
+
+#sachiv{
+    background-color: #717e7b;
+    color: floralwhite;
+    margin-bottom: 10px;
+    box-shadow: gray;
+}
+#sachiv:hover{
+    transform: scale(1.05);
+}
+#panch-box{
+    background-color: rgb(76, 26, 122);
+    border: 2px solid grey;
+    color: rgb(196, 160, 88);
+    /* box-shadow: gray; */
+}
+#panch-box:hover{
+    transform: scale(1.05);
+}
+.blue-strip{
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgb(6, 6, 43);
+    padding: 5px;
+}
+.blue-strip:hover{
+    transform: scale(1.05);
+}
+.green-strip{
+    background-color: #5aa899;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px ;
+    padding: 5px;
+    box-shadow: rgb(26, 39, 4);
+}
+.green-strip:hover{
+    transform: scale(1.05);
+    text-shadow: black;
+}
+address{
+    font-size: larger;
+    font-weight: bolder;
+}
+.footer-box{
+    background-color: #474749;
+    padding: 10px;
+    margin-top: 10px;
+}
+.img-fluid{
+    height: 300px;
+}
+.gal
+{
+    margin-top: 30px;
+}
+.complain-box{
+    margin-left: -40px;
+    width: 100%;
+    height: 1100px;
+}
+.contact-btn{
+    width: 40%;
+    margin-top: 5px;
+}
+.map-make{
+    background-color: rgb(201, 124, 124);
+    color: floralwhite;
+}
+.map-make:hover{
+    transform: scale(1.1);
 }

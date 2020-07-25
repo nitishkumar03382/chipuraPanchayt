@@ -4,55 +4,238 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>myTutor</title>
+    <title>चिपुरा पंचायत</title>
 </head>
-<body>
+<body style= "background-image: linear-gradient(to bottom right, rgb(185, 95, 178), rgb(88, 23, 72));">
 <div class="main">
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #379683;">
-        <button class="navbar-toggler" data-toggle = "collapse" data-target= "#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #abad2a">
+        <button class="navbar-toggler" data-toggle = "collapse" data-target= "#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="toggle navigation" style="background-color: rgb(98, 41, 190);">
+            
             <span class="navbar-toggler-icon" ></span>
+            <span class="fa fa-hand-o-down"></span>
         </button>
-        <a href="#" class="navbar-brand"><span class="fa fa-book fa-lg"></span></a>
+        <a href="#" class="navbar-brand"><span style="color: rgb(0, 0, 0); font-size: larger;"><b>चिपुरा पंचायत</b></span></a>
         <div class="navbar-collapse collapse" id="navCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active"><span class="fa fa-home fa-lg"></span> Home</a>
+                    <a href="#" class="nav-link active"><span class="fa fa-home fa-lg link-text"> &nbsp; Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="ward.html" class="nav-link "><span class="fa fa-users fa-lg link-text"> &nbsp;वार्ड सदस्य</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="panch.html" class="nav-link "><span class="fa fa-users fa-lg link-text">&nbsp;पंच</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="pax.html" class="nav-link "><span class="fa fa-users fa-lg link-text">&nbsp;पैक्स</span></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link"><span class="fa fa-image fa-lg link-text">&nbsp;Gallery</span></a>
                 </li>
 
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link "><span class="fa fa-info-circle fa-lg link-text">&nbsp;About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="contactus.html" class="nav-link "><span class="fa fa-address-card fa-lg link-text">&nbsp;Contacts</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="complain.html" class="nav-link "><span class="fa fa-comments-o fa-lg link-text">&nbsp;शिकायत / सुझाव</span></a>
+                </li>
+                
                 
             </ul>
             <span class="navbar-text">
-                <a href="#">Join As a teacher</a>
+                
+                <a href="./notice.html" class="btn btn-primary">  <span class="fa fa-rss fa-lg"></span>Notice</a>
             </span>
+            
         </div>
     </nav>
+    
     <header>
-        <div class="jumbotron container">
-            <h1 class="display-4">Dear Student/Parent</h1>
-            <p>We provide best teacher at your home of your choice</p>
-            <hr class="my-4">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-12 col-sm-2">
+                    <img src="./ourlogo.png" alt="logo" width="160px" height="160px">
+                </div>
+              <div class="col-12 col-sm-10">
+                <h1 class="display-6">चिपुरा पंचायत में आपका स्वागत है</h1>
+              </div>
+            </div>
             <p class="lead">
-               <span class="fa fa-mind"></span> <a class="btn btn-primary btn-lg" role="button" href="howitwork.html">How It Works</a>
+                <span class="fa fa-mind"></span> <a class="btn btn-primary btn-lg" role="button" href="https://www.google.com/maps/place/Panchayat+Bhawan+Chipura/@25.5401681,85.1508007,17z/data=!4m5!3m4!1s0x0:0x2fc7f178ce1778bf!8m2!3d25.5398326!4d85.1518817">&nbsp;<span class="fa fa-map-marker fa-lg"></span></a> 
+               <span class="fa fa-mind"></span> <a class="btn btn-primary btn-lg" role="button" href="complain.html">शिकायत / सुझाव</a>
             </p>
         </div>
     </header>
 </div>
- <div class="carousel slide">
+<!-- Caraousel -->
+<div class="container">
+    <div class="row row-content">
+        <div class="col">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="./gallery/c1.jpg" alt="Uthappizza">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="./gallery/c2.jpg" alt="buffet">  
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="./gallery/c3.jpg" alt="Alberto Somayya">
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <span class="fa fa-pause"></span>
+                        </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mukhiya">
+        <!-- <div class="row mukhiya-row mt-4">
+            <div class="col-12 col-sm-4">
+                <img src="./satish.jpg" alt="satish kumar" width="100%" height="300">
+            </div>
+            <div class="row mukhiya-text">
+                <h2>सतीश कुमार</h2>
+                <span>माननीय मुखिया, चिपुरा पंचायत,<br>
+                    उपाध्यक्ष महानगर योजना समिति</span>
+            </div>
+        </div> -->
+        <div class="row satish-row">
+            <div class="col-12 col-sm-4 align-self-center">
+                <img src="./satish.jpg" alt="Sarpanch" width="110%" height="330px">
+                <div class="row ml-1 mt-1 self-align-center">
+                    <h2>सतीश कुमार</h2>
+                </div>
+                <div class="row others-text ml-1 mt-1">
+                    <span class="mukhiya-text">माननीय मुखिया, चिपुरा पंचायत,<br>
+                        उपाध्यक्ष महानगर योजना समिति
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row others-row">
+            <div class="col-12 col-sm align-self-center">
+                <img src="./dps.jpg" alt="Sarpanch" width="85%" height="250px">
+                <div class="row others-text ml-1 mt-1 self-align-center">
+                    <h3 class="dislpay-4">देवेंद्र प्रसाद सिंह</h3>
+                </div>
+                <div class="row others-text ml-1 mt-1">
+                    <span>माननीय सरपंच, चिपुरा पंचायत</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm align-self-center">
+                <img src="./sant.jpg" alt="Sarpanch" width="75%" height="250px">
+                <div class="row others-text ml-1 mt-1">
+                    <h3 class="dislpay-4">संत चौधरी</h3>
+                </div>
+                <div class="row others-text ml-1 mt-1">
+                    <span>माननीय उपमुखिया, चिपुरा पंचायत</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm align-self-center">
+                <img src="./kishori.jpg" alt="Sarpanch" width="75%" height="250px">
+                <div class="row others-text ml-1 mt-1">
+                    <h3 class="dislpay-4">किशोरी राम</h3>
+                    <span><br>
+                </div>
+                <div class="row others-text ml-1 mt-1">
+                    <span>माननीय पंचायत समिती, चिपुरा पंचायत</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
- </div>
-    
+<!-- Footer -->
+<footer class="footer">
+    <div class="container-fluid footer-box">
+        <div class="row">             
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./ward.html">Ward</a></li>
+                    <li><a href="./panch.html">Panch</a></li>
+                    <li><a href="./pax.html">Pax</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="./complain.html">Complain</a></li>
+                    <li><a href="./contactus.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-7 col-sm-5">
+                <h5>Our Address</h5>
+                <address>
+                    Chipura Khurd, Gaurichak, Patna, Bihar, India, 804453<br>
+                    <i class="fa fa-phone fa-lg"></i>सतीश कुमार: +919835498615<br>
+                    <i class="fa fa-whatsapp fa-lg"></i>संत चौधरी: +918873695896<br>
+                    <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:chipurapanchayat@gmail.com">Mail Us</a>
+                </address>
+            </div>
+
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <!-- <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a> -->
+                    <!-- <a class="btn btn-social-icon btn-social-icon" href="mailto:panchayatchipura@gmail.com"><i class="fa fa-envelope-o"></i></a> -->
+                    <p>This website is developed by Nitish Kumar and Santu Singh</p>
+                    <p>Content by Niraj Kumar</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">             
+            <div class="col-12" style="text-align: center;">
+                <p>© Copyright 2020 Chipura Panchayat</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function(){
+    //carousel script
+    $('#mycarousel').carousel({interval: 2000});
+    $('#carouselButton').click(function(){
+        if($('#carouselButton').children('span').hasClass('fa-pause')){
+            $('#mycarousel').carousel('pause');
+            $('#carouselButton').children('span').removeClass('fa-pause');
+            $('#carouselButton').children('span').addClass('fa-play');
+        }
+        else if($('#carouselButton').children('span').hasClass('fa-play')){
+            $('#mycarousel').carousel('cycle');
+            $('#carouselButton').children('span').removeClass('fa-play');
+            $('#carouselButton').children('span').addClass('fa-pause');
+        }
+            
+    });
+});
+</script>
 </body>
 </html>
